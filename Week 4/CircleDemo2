@@ -1,0 +1,38 @@
+package chap04;
+
+class Circle1 {
+	double radius;
+	String color;
+	
+	public Circle1(double r, String c) {
+		radius =r;
+		color = c;
+	}
+	public Circle1(double r) {
+		radius = 10.0;
+		color = "파랑";
+	}
+	public Circle1(String c) {
+		radius = 10.0;
+		color = "빨강";
+	}
+	
+	public Circle1() {
+		radius = 10.0;
+		color = "파랑";
+	}
+	
+}
+
+
+public class CircleDemo2 {
+
+	public static void main(String[] args) {
+		Circle1 c1= new Circle1(10.0, "빨강");
+		Circle1 c2= new Circle1(5.0);
+		Circle1 c3= new Circle1("노랑");
+		Circle1 c4= new Circle1();
+
+	}
+
+}
