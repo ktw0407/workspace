@@ -1,0 +1,9 @@
+package chap04;
+
+class Ball{
+	double radius;
+	public double getVolume(){
+		return 4/3*3.14*radius*radius*radius;
+		
+	}
+}
